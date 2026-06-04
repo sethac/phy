@@ -263,11 +263,19 @@ table tr[data-group='good'] {
 }
 
 table tr[data-group='mua'] {
-    color: #afafaf;
+    color: #3366E6;
 }
 
 table tr[data-group='noise'] {
-    color: #777;
+    color: #D92626;
+}
+
+table tr[data-group='nonsoma_single'] {
+    color: #FF8C1A;
+}
+
+table tr[data-group='nonsoma_multi'] {
+    color: #9933CC;
 }
 '''
 

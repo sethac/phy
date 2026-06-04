@@ -135,10 +135,12 @@ def _make_default_colormap():
 def _make_cluster_group_colormap():
     """Return cluster group colormap."""
     return np.array([
-        [0.4, 0.4, 0.4],  # noise
-        [0.5, 0.5, 0.5],  # mua
-        [0.5254, 0.8196, 0.42745],  # good
-        [0.75, 0.75, 0.75],  # '' (None = '' = unsorted)
+        [0.85, 0.15, 0.15],  # 0 noise -> red
+        [0.20, 0.40, 0.90],  # 1 mua -> blue
+        [0.5254, 0.8196, 0.42745],  # 2 good -> green
+        [0.75, 0.75, 0.75],  # 3 '' (None = '' = unsorted)
+        [1.00, 0.55, 0.10],  # 4 nonsoma_single -> orange
+        [0.60, 0.20, 0.80],  # 5 nonsoma_multi -> purple
     ])
 
 
