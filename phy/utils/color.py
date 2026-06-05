@@ -141,6 +141,7 @@ def _make_cluster_group_colormap():
         [0.75, 0.75, 0.75],  # 3 '' (None = '' = unsorted)
         [1.00, 0.55, 0.10],  # 4 nonsoma_single -> orange
         [0.60, 0.20, 0.80],  # 5 nonsoma_multi -> purple
+        [0.90, 0.72, 0.00],  # 6 uncertain -> amber (needs review)
     ])
 
 

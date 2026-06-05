@@ -1624,6 +1624,7 @@ class BaseController(object):
             'unsorted': 3,
             'nonsoma_single': 4,
             'nonsoma_multi': 5,
+            'uncertain': 6,
         }
         logger.debug("Adding default color schemes to %s.", view.name)
 

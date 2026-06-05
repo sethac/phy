@@ -277,6 +277,10 @@ table tr[data-group='nonsoma_single'] {
 table tr[data-group='nonsoma_multi'] {
     color: #9933CC;
 }
+
+table tr[data-group='uncertain'] {
+    color: #E6B800;
+}
 '''
 
 
